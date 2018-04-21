@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">recourse</string>
+    <string name="name_nav1">首页</string>
+    <string name="name_nav2">社区</string>
+    <string name="name_nav3">下载</string>
+    <string name="name_nav4">我的</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_study">最近学习</string>
+    <string name="name_collect">我的收藏</string>
+    <string name="name_course">空闲排课</string>
+    <string name="name_note">笔记管理</string>
+    <string name="name_hobby">偏好</string>
+    <string name="name_otherSet">其他设置</string>
+    <string name="name_returnUser">反馈</string>
+    <string name="name_account">个人信息</string>
+    <string name="name_safe">账户安全</string>
+    <string name="name_test">测评记录</string>
+    <string name="name_watched">浏览记录</string>
+    <string name="recommend">推荐课程</string>
+    <string name="more">推荐更多></string>
+    <string name="search">搜索</string>
+    <string name="download">下载</string>
+    <string name="remain">剩余容量：1.5G</string>
+    <string name="download_course">已下载</string>
+    <string name="comment">评论</string>
+    <string name="remainWord">留言</string>
+    <string name="watch">观看</string>
+    <string name="toWatch">点击查看</string>
+    <string name="watchNote">去翻阅</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <View
+        android:id="@+id/search_title_bg"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/search_title"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:background="@drawable/bg_search_edit"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/search"
+        android:paddingStart="40dp"
+        android:paddingEnd="0dp"
+        android:textColor="@color/text_mute"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/search_title_bg"
+        app:layout_constraintLeft_toLeftOf="@id/search_title_bg"
+        app:layout_constraintRight_toRightOf="@id/search_title_bg"
+        app:layout_constraintTop_toTopOf="@id/search_title_bg"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="36dp"/>
+
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/search"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toBottomOf="@id/search_title"
+        app:layout_constraintLeft_toLeftOf="@id/search_title"
+        app:layout_constraintTop_toTopOf="@id/search_title"
+        android:contentDescription="@string/recommend" />
+    <ImageView
+        android:id="@+id/iv_menu_search"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/add"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="@id/search_title"
+        app:layout_constraintLeft_toRightOf="@id/search_title"
+        app:layout_constraintTop_toTopOf="@id/search_title"
+        app:layout_constraintRight_toRightOf="parent" android:contentDescription="TODO"/>
+
+</android.support.constraint.ConstraintLayout>
